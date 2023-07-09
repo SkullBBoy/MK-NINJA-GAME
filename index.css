@@ -1,6 +1,53 @@
 body{
   background-image: url('./assets/fondo.jpg');
   background-size: cover;
-  
-  /* background-repeat: no-repeat; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+#ninja{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #333;
+    border-radius: 25px;
+}
+  
+#respuestaNinja{
+display: flex;
+background-color: #333;
+margin-top: 30px;
+
+border-radius: 25px;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    
+}
+
+#nombreNinja{
+    width: 80px;
+    text-align: center;
+}
+
+#btnRespuesta{
+color: white;
+font-size: 15px;
+border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-left: none;
+background-color: #333; 
+}
+
+img{
+width: 180px; 
+height: auto;  
+border-top-left-radius: 25px;
+border-bottom-left-radius: 25px; 
+}
+
+
