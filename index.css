@@ -53,4 +53,20 @@ border-top-left-radius: 25px;
 border-bottom-left-radius: 25px; 
 }
 
+#puntuacion{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
 
+#racha{
+    background-color: #333;
+    padding: 10px;
+    border-radius: 25px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+}
