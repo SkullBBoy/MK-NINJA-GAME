@@ -15,33 +15,36 @@ body{
     border-radius: 25px;
 }
   
-#respuestaNinja{
-display: flex;
-background-color: #333;
-margin-top: 30px;
-
-border-radius: 25px;
-}
-
-label{
+#respuestaNinja {
+    display: flex;
+    background-color: #333;
+    margin-top: 30px;
+    border-radius: 25px;
+    align-items: center; 
+    justify-content: center; 
+    padding: 10px;
+  }
+  
+  label {
     color: white;
-    font-size: 15px;
-    
-}
-
-#nombreNinja{
+    font-size: 25px;
+    margin-right: 10px; 
+  }
+  
+  #nombreNinja {
     width: 80px;
     text-align: center;
-}
-
-#btnRespuesta{
-color: white;
-font-size: 15px;
-border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-left: none;
-background-color: #333; 
-}
+  }
+  
+  #btnRespuesta {
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    
+    margin-left: 10px;
+    background-color: #333;
+  }
+  
 
 img{
 width: 180px; 
