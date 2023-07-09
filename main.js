@@ -6,11 +6,13 @@ document.addEventListener("DOMContentLoaded", function() {
     const rachaElement = document.getElementById("racha");
     const btnRespuesta = document.getElementById("btnRespuesta")
     const ninjas = [
-      { nombre: "scorpion" },
-      { nombre: "subzero" },
-      { nombre: "ermac" },
-      { nombre: "reptile" }
-    ];
+        { nombre: "scorpion" },
+        { nombre: "subzero" },
+        { nombre: "ermac" },
+        { nombre: "reptile" },
+        { nombre: "smoke" },
+        { nombre: "rain" }
+      ];
 
     let ninjaActual = parseInt(localStorage.getItem("NinjaActual")) || 0;
     let puntuacion = parseInt(localStorage.getItem("Puntuacion")) || 0;
