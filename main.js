@@ -28,7 +28,8 @@ document.addEventListener("DOMContentLoaded", function() {
     mostrarNinjaActual();
   
     if(btnRespuesta){
-        btnRespuesta.addEventListener("click", function() {
+        btnRespuesta.addEventListener("click", nashe => {
+          event.preventDefault();
             const valorInput = input.value.toLowerCase();
         
             if (valorInput === "") {
